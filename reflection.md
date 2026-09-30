@@ -5,10 +5,6 @@
 Dùng kết quả thật trong `artifacts/benchmark_results.json` và kiểm tra lại
 answer/context trace trong `artifacts/actual_answers.json` trước khi kết luận.
 
-> Cấu hình chạy: `domain_assistant.py` với `deepseek-chat` (API tương thích OpenAI,
-> thay cho `gpt-4o-mini` do hết quota OpenAI), BM25 `top_k=5`, `prompt_version=1.0`.
-> Evaluation core: `template.py` (word-overlap heuristics).
-
 ---
 
 ## 1. Benchmark Results Summary
